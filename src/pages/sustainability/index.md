@@ -1,9 +1,9 @@
 ---
-templateKey: 'product-page'
+templateKey: 'sus-page'
 path: /sustainability
 title: Coding Green
 image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Great code with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -45,12 +45,13 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Great code with a conscience
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    As one of Codeshares' core values is to become a zero carbon footprint company we want to help our clients do the same. 
+    To do so we code green by planting one tree in Africa for each coding hour purchased. By choosing Codeshares as your software 
+    development partner you plant trees and help create carbon sinks. Tree planting also provides work and life opportunities for local African people. PITÄISIKÖ TÄSSÄ MAINITA, ETTÄ TYÖLLISTÄMME 2 HENKILÖÄ YHDESSÄ SISARYRITYKSEMME SHADESHARESIN KANSSA XXX KYLÄSSÄ TMV.?
+    We work in cooperation with Kenya Forest and local operators who plant and nurture the seedlings. Codeshares plants the following species of trees: 
+    avocado, grevillea robusta (southern silky oak), casuarina, croton ja crafted mangoes.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
@@ -61,41 +62,42 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 testimonials:
-  - author: Elisabeth Kaurismäki
+  - author: Veronica Westergård
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      My role in Codeshares is to coordinate tree planting project. When I joined college to pursue a Master’s Degree in Global Health, environment conservation became one of my biggest interests. As I was looking for an organization that would do its part to fight for our planet, I am so grateful to have come upon Codeshares, to share my passion, determination and grow with. Being part of this team drives me towards achieving my childhood dream of becoming environmentalist to protect our natural heritage. I am so excited to contribute in anyway I can to this important cause.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: The Coding School Initiative
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    We at Codeshares care about the community we operate in and want to contribute to it. Thus we are currently in the process of opening a coding school for youths 
+    living in the slums of Nairobi in cooperation with World Vision. The school will be run at the SOS Technical Village in BuruBuru, Nairobi. Our students will be mentored and 
+    taught by Codeshares’ own coders. The vetting and screening process of the students will be done in cooperation with World Vision Kenya. 
+
+    In addition to helping our clients reduce their carbon footprint by planting a tree for each coding hour purchased, 
+    we want to offer our clients the opportunity to sponsor the Coding School as a charity project.
+
+    Currently we are working on developing the curriculum and hope to open our school next spring AFTER COVID-19 TIMES ARE BEHIND US. 
+    So far it has been a great learning experience and we couldn’t be more excited to get things up and running!
+
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Trees planted so far.
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+        - The treetypes are this and that
+        - In ouygis village
+        - Something else about the teams
+      plan: Progress
+      price: '1450'
+    - description: People made carbon neutral!
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
+        - This amount of trees makes 1 person
+        - Calculated like this
+      plan: Impact
       price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
+    - description: People employed
       items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - Kenya forest service
+        - Planting trees
+        - Seedlings
+      plan: Employees
+      price: '2'
 ---

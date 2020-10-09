@@ -1,14 +1,20 @@
 ---
-templateKey: 'product-page'
+templateKey: 'dev-page'
 path: /solutions
 title: Our Solutions
 image: /img/jumbotron.jpg
-heading: Great coffee with a conscience
+heading: Our solutions
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Codeshares offers tailor made software development solutions that are built on the latest web technologies. No matter what size of a company and need you have, we can help you! Our solutions are always built on clients’ unique needs, so just tell us what your challenge is, and we will find a way to solve it!
+
+  We are a software development startup but have been fortunate to get to work with various fields of businesses already. Our solutions have so far been built to, e.g., manufacturing industry, educational field of business, event sales organisation, and so on. Our solutions have so far been mostly mobile focused cross platform application development projects. 
+
+  Technologies that we use the most are Vue/ React in the frontend and Nodejs in the backend. We’re highly skilled in both, Google Cloud Platform as well as AWS Cloud. We have also been building up our team of developers based on the technological needs our clients have had, so do tell us your special technological needs, and we will build up a team to meet your company’s demands!
+
+  The most important asset of our solutions to be high quality and timely delivered are our people. Our team is the one who make it all happen! Thus we put a lot of emphasis in the personal development of our developers and want to make sure we stay one step ahead in the competition at all times.
+
+  After the solution has been delivered to our client, we also offer hosting and maintenance services, cost efficiently.
+
 intro:
   blurbs:
     - image: /img/coffee.png

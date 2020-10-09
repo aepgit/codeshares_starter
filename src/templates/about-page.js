@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
@@ -20,6 +20,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
             </div>
           </div>
         </div>
+        <div className="columns">     
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/contact">
+                Contact us
+              </Link>
+            </div>
+          </div>
       </div>
     </section>
   )

@@ -13,7 +13,7 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   description,
-  intro,
+  intro
 }) => (
   <div>
     <div
@@ -39,9 +39,6 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -52,9 +49,6 @@ export const IndexPageTemplate = ({
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
@@ -79,6 +73,13 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/about">
+                      More about us
+                    </Link>
+                  </div>
+                </div>
+                <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
@@ -89,8 +90,16 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
+                    <Link className="btn" to="/solutions">
+                      Our solutions
+                    </Link>
+                  </div>
+                </div>
+                <Features gridItems={intro.blurbs2} />
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/sustainability">
+                      More about sustainability
                     </Link>
                   </div>
                 </div>
@@ -123,6 +132,7 @@ IndexPageTemplate.propTypes = {
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+    blurbs2: PropTypes.array,
   }),
 }
 
@@ -175,6 +185,16 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            text
+          }
+          blurbs2 {
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {

@@ -4,8 +4,7 @@ import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+import linkedin from '../img/social/linkedin.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -28,13 +27,18 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
+                      <Link className="navbar-item" to="/sustainability">
+                        Sustainability
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
+                      <Link className="navbar-item" to="/solutions">
+                        Solutions
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/people">
+                        People
                       </Link>
                     </li>
                     <li>
@@ -54,6 +58,11 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list">
                     <li>
+                      <Link className="navbar-item" to="/references">
+                        References
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="/blog">
                         Latest Stories
                       </Link>
@@ -67,32 +76,25 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
+                <a title="facebook" href="https://www.facebook.com/Codeshares-2137036599718110">
                   <img
                     src={facebook}
                     alt="Facebook"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+                <a title="linkedin" href="https://www.linkedin.com/company/codeshares">
                   <img
                     className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
+                    src={linkedin}
+                    alt="Linkedin"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com">
+                <a title="instagram" href="https://instagram.com/code.shares">
                   <img
                     src={instagram}
                     alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
