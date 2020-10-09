@@ -2,8 +2,7 @@
 templateKey: blog-post
 title: Ensimmäiset 100 päivää – välitilinpäätös
 date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by
-  coffee tasters, has been revised for the first time this year.
+description: Ensimmäiset 100 päivää – välitilinpäätös
 featuredpost: false
 featuredimage: /img/0-1-.jpg
 tags:
